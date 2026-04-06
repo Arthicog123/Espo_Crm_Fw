@@ -13,8 +13,6 @@ import { getFutureDate, getRandomNumber } from '../GenericUtility/JavaScriptUtil
 
 test.describe('Lead Test', ()=>{
 
-    test.beforeAll()
-
     test('lead to contact', async({page})=>{
     const loginPage = new Login(page)
     const homePage = new Home(page)

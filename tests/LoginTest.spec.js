@@ -20,7 +20,7 @@ test.describe('Login Test', ()=>{
     await page.pause()
 })
 
-test.only('Invalid Login Test', async ({ page }) => {
+test('Invalid Login Test', async ({ page }) => {
 
     const loginPage = new Login(page)
 
